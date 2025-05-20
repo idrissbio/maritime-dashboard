@@ -13,6 +13,7 @@ from PIL import Image
 import io
 import json
 import requests
+import time
 
 # Set page config
 st.set_page_config(
