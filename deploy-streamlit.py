@@ -3,12 +3,12 @@ Maritime Trading Dashboard - Streamlit Cloud Deployment
 This is a simplified version specifically for Streamlit Cloud deployment.
 
 Dependencies:
-streamlit==1.29.0
-pandas==1.5.3
-numpy==1.24.3
-plotly==5.18.0
-requests==2.31.0
-Pillow==10.1.0
+streamlit==1.25.0
+pandas==1.3.5
+numpy==1.22.4
+plotly==5.14.0
+requests==2.28.2
+Pillow==9.5.0
 """
 import streamlit as st
 import pandas as pd

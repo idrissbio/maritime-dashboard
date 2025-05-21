@@ -225,11 +225,13 @@ The dashboard can be deployed to Streamlit Cloud for easy access from anywhere:
    - Sign in with your GitHub account
    - Click "New app" and select your repository
    - In the deploy settings:
-     * Main file path: `streamlit_app.py`
-     * Requirements file: `requirements-deploy.txt`
+     * Main file path: `deploy-streamlit.py`
+     * Requirements file: `requirements.txt`
    - Click "Deploy"
 
-The cloud-deployed version uses the TwelveData API for real-time market data and includes simplified versions of the dashboard pages.
+   > **Important**: For compatibility with Streamlit Cloud, we've updated the dependencies in `requirements.txt` to versions that are compatible with the Streamlit Cloud environment.
+
+The cloud-deployed version uses the TwelveData API for real-time market data and includes simplified versions of the dashboard pages focused on Energy Futures and their correlation with maritime shipping data. The `deploy-streamlit.py` file is a self-contained version of the dashboard specifically designed for Streamlit Cloud deployment.
 
 ## Configuration
 
