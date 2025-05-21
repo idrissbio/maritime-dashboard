@@ -1,13 +1,9 @@
+[global]
+protobufImplPython = true
+
 [theme]
 primaryColor="#0078ff"
 backgroundColor="#ffffff"
 secondaryBackgroundColor="#f0f2f6"
 textColor="#262730"
 font="sans serif"
-
-[server]
-enableCORS = false
-enableXsrfProtection = false
-
-[logger]
-level = "info"
